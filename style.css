@@ -1,0 +1,156 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1c1c1c;
+    color: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background: #000000;
+    color: #d50000;
+    border: 2px solid #d50000;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 95%;
+    max-width: 1200px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 95%;
+    max-width: 1200px;
+}
+
+.sidebar {
+    width: 100%;
+    max-width: 300px;
+    background: #222;
+    border: 2px solid #d50000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    font-size: 1.3rem;
+    color: #d50000;
+    margin-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #d50000;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.sidebar a:hover {
+    color: #fff;
+    border-bottom: 2px solid #d50000;
+}
+
+.content {
+    flex: 1;
+    background: #333;
+    border: 2px solid #d50000;
+    padding: 20px;
+    max-width: 70%;
+}
+
+footer {
+    background: #000000;
+    color: #d50000;
+    border: 2px solid #d50000;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    width: 95%;
+    max-width: 1200px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #d50000;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #d50000;
+}
+
+.search-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid #d50000;
+    background: #333;
+}
+
+.search-bar input {
+    width: 75%;
+    padding: 8px;
+    border: none;
+    background: #fff;
+    color: #333;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #d50000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #ff0000;
+}
+
+.social-links a {
+    color: #d50000;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
